@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E5;
+    
+}
+.cell
+{
+    background-color:#00A19D;
+    font-size: 5rem;
+    text-align: center;
+    /* border-radius: 50%; */
+}
+.cell:hover
+{
+    background-color:#B8E4F0 ;
+}
+.container
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: black;
+    grid-row-gap: 2px;
+    grid-column-gap: 2px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 80px;
+  
+}
+
+.game-info
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.btn {
+    background: #149efa;
+    background-image: -webkit-linear-gradient(top, #149efa, #2980b9);
+    background-image: -moz-linear-gradient(top, #149efa, #2980b9);
+    background-image: -ms-linear-gradient(top, #149efa, #2980b9);
+    background-image: -o-linear-gradient(top, #149efa, #2980b9);
+    background-image: linear-gradient(to bottom, #149efa, #2980b9);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 7px 27px 8px 25px;
+    border: solid #464f54 4px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #693cfc;
+    background-image: -webkit-linear-gradient(top, #693cfc, #3498db);
+    background-image: -moz-linear-gradient(top, #693cfc, #3498db);
+    background-image: -ms-linear-gradient(top, #693cfc, #3498db);
+    background-image: -o-linear-gradient(top, #693cfc, #3498db);
+    background-image: linear-gradient(to bottom, #693cfc, #3498db);
+    text-decoration: none;
+  }
+
+  .dancing
+  {
+      position: absolute;
+      top:150px;
+      left: 0;
+      display: none;
+  }
+  .party
+  {
+      position: absolute;
+      top:150px;
+      right: 0;
+      display: none;
+  }
+  .heading{
+      font-size: 5rem;
+      color: green;
+      font-family: 'Bakbak One', cursive;
+      margin: 0;
+      text-align: center;
+  }
